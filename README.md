@@ -23,3 +23,5 @@ python recognize.py
 
 Adding new feature of emotion 
 pip install deepface
+python emotion.py
+
