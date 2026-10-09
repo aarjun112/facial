@@ -4,7 +4,7 @@ python -m venv venv
 
 then activate it by 
 
-.\venve\Scripts\Activate.ps1
+.\venv\Scripts\Activate.ps1
 
 install opencv for facial recognization feature 
 pip install opencv-contrib-python
@@ -19,3 +19,7 @@ TRAIN IT
 python train.py
 THEN RUN IT
 python recognize.py
+
+
+Adding new feature of emotion 
+pip install deepface
