@@ -25,3 +25,6 @@ Adding new feature of emotion
 pip install deepface
 python emotion.py
 
+
+adding new feature-(recognize the objects in real time)-ultralytics yolo
+python -m pip install ultralytics
