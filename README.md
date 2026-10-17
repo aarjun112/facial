@@ -33,5 +33,10 @@ python -c "import cv2; print(cv2.__version__); print('Face module:', hasattr(cv2
 
 
 new fewature -Air writing
-python -m pip install mediapipe
+(creating seperate env for this due to collision)
+py -3.12 -m venv airwriting_venv
+.\airwriting_venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install numpy==1.26.4 opencv-contrib-python==4.10.0.84 mediapipe==0.10.21
+
 python air_writing.py
