@@ -23,3 +23,20 @@ dataset/
 # OS files
 .DS_Store
 Thumbs.db
+@"
+# Python virtual environments
+venv/
+.venv/
+airwriting_venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+
+# IDE files
+.vscode/
+.idea/
+"@ | Add-Content .gitignore
