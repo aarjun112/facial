@@ -39,4 +39,6 @@ py -3.12 -m venv airwriting_venv
 python -m pip install --upgrade pip
 python -m pip install numpy==1.26.4 opencv-contrib-python==4.10.0.84 mediapipe==0.10.21
 
+
+air writing 
 python air_writing.py
